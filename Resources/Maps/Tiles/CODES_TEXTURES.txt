@@ -8,8 +8,8 @@ Floor tiles:
 01-01-02 = Grass 02
 
 
-X2X = Stone
-XX1 = Stone 01
+01-02-01 = Stone 01
+01-02-02 = Stone 02
 
 Grass 
 Stone 
