@@ -93,14 +93,14 @@ bool GraphicsClass::Initialize(HWND hwnd)
 	);
 
 	// Create the model object.
-	m_World = new World;
+	m_World = new WorldClass;
 	if (!m_World)
 	{
 		return false;
 	}
 
 	// Initialize the model object.
-	result = m_World->Initialize(m_Direct3D->GetDevice(), m_Direct3D->GetDeviceContext(), "../GameProject/Resources/Maps/Tiles/stone01.tga");
+	result = m_World->Initialize(m_Direct3D->GetDevice(), m_Direct3D->GetDeviceContext(), "../GameProject/Resources/Maps/Tiles/MT-GR-02.tga");
 	if (!result)
 	{
 		MessageBox(hwnd, L"Could not initialize the model object.", L"Error", MB_OK);

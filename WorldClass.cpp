@@ -4,9 +4,9 @@
 
 WorldClass::WorldClass()
 {
-	for (int y = -100; y < 100; ++y)
+	for (int y = -1; y < 1; ++y)
 	{
-		for (int x = -100; x < 100; ++x)
+		for (int x = -1; x < 1; ++x)
 		{
 			ObjectClass* const obj = new ObjectClass;
 
